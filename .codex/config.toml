@@ -1,0 +1,13 @@
+profile = "modal"
+
+[model_providers.modal]
+name = "Modal vLLM"
+base_url = "https://esteban-felipe--opencode-vllm-r1-1p5b-serve.modal.run/v1"
+env_key = "MODAL_VLLM_API_KEY"
+requires_openai_auth = true
+wire_api = "chat"
+
+[profiles.modal]
+model = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+model_provider = "modal"
+model_context_window = 4096
