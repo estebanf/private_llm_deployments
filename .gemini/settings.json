@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "ref-tools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ref-tools-mcp@latest"
+      ],
+      "env": {
+        "REF_API_KEY": "ref-6e03c86eae2bcfbb04ea"
+      }
+    }
+  }
+}
