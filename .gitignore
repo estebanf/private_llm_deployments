@@ -130,6 +130,9 @@ dmypy.json
 
 # macOS
 .DS_Store
+
+# Local tooling / hidden directories
+.*/
 opencode.json
 .claude/
 .codex/
